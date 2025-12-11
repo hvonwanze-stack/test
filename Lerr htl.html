@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanzen-Sekte</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #1a1a1a; /* dunkles Schwarz/Grau */
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+            color: #f0c040; /* gold */
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        nav {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f0c040;
+        }
+
+        .logo-section {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 50px 20px;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+
+        .logo-section .text-box {
+            max-width: 600px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+            line-height: 1.7;
+            padding: 10px;
+            overflow: auto;
+            color: #fff;
+        }
+
+        .logo-section img {
+            max-width: 80%;
+            height: auto;
+        }
+
+        /* GOLDENE ZWISCHEN&Uuml;BERSCHRIFTEN */
+        .logo-section h3 {
+            color: #f0c040;
+            text-shadow: 1px 1px 2px #000;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 1200px) {
+            .logo-section {
+                flex-direction: column;
+                align-items: center;
+            }
+            .logo-section .text-box {
+                max-width: 90%;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wanzen-Sekte</h1>
+        <nav>
+            <a href="index.html">Deckblatt</a>
+            <a href="polizeibericht.html">Polizeibericht</a>
+            <a href="ingame-dokument.html">Ingame-Dokument</a>
+            <a href="pressemitteilung.html">Pressemitteilung</a>
+            <a href="sekten-chronik.html">Sekten-Chronik</a>
+            <a href="wiki-eintrag.html">Wiki-Eintrag</a>
+            <a href="chatprotokolle.html">Chatprotokolle</a>
+            <a href="rp-storyline.html">RP-/Storyline</a>
+        </nav>
+    </header>
+</html>
